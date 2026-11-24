@@ -139,7 +139,7 @@
         {
           "rot": "Terminal · snapshot of one of your sites",
           "icone": "lupa",
-          "conteudo": "cd ~/projetos/formacao-webmcp-navegador-v72/kit\nnode ver-como-agente.mjs https://inema.club/; echo \"saída: $?\""
+          "conteudo": "cd ~/projetos/formacao-webmcp-navegador-v72/kit\nnode ver-como-agente.mjs https://ARCKHÉ AI/; echo \"saída: $?\""
         },
         {
           "rot": "Terminal · connect to Claude Code and Codex",
@@ -151,8 +151,8 @@
         "selo": "real",
         "abas": [
           {
-            "rot": "Real site: inema.club (10/19/2026)",
-            "html": "<pre>→ browser_navigate {\"url\":\"https://inema.club/\"}\n→ browser_snapshot {}\n- generic [active] [ref=e1]:\n  - banner [ref=e2]:\n    - generic [ref=e3]:\n      - link \"INEMA.VIP Participe da Comunidade\" [ref=e4] [cursor=pointer]:\n        - /url: https://inema.vip\n        - img \"INEMA.VIP\" [ref=e5]\n        - generic [ref=e6]: Participe da Comunidade\n      - link \"INEMA.PRO Assine o INEMA.PRO\" [ref=e7] [cursor=pointer]:\n        - /url: https://inema.pro\n        - img \"INEMA.PRO\" [ref=e8]\n        - generic [ref=e9]: Assine o INEMA.PRO\n      - generic [ref=e10]:\n        - heading \"INEMA.CLUB Portal INEMA\" [level=1] [ref=e11]\n        - paragraph [ref=e12]: \"Aprenda Inteligência Artificial na prática: cursos, agentes, automação e comunidade\"\n        - generic [ref=e13]:\n(…)\nferramentas WebMCP vistas: 8 · buscar_conhecimento [readOnly], buscar_cursos [readOnly], comparar_cursos [readOnly], …\nsnapshot: 1040 linhas · 749 elementos com ref\nsaída: 0</pre><p>Here the site is inema.club, INEMA's own. On your machine, swap in the address of one of your own sites: a browser agent only against your own site. The summary shows how many lines and refs the agent receives; inema.club has an origin trial token, so the kit's Chromium 156 also saw its 8 WebMCP tools, with no flag at all.</p>"
+            "rot": "Real site: ARCKHÉ AI (10/19/2026)",
+            "html": "<pre>→ browser_navigate {\"url\":\"https://ARCKHÉ AI/\"}\n→ browser_snapshot {}\n- generic [active] [ref=e1]:\n  - banner [ref=e2]:\n    - generic [ref=e3]:\n      - link \"ARCKHÉ.VIP Participe da Comunidade\" [ref=e4] [cursor=pointer]:\n        - /url: https://ARCKHÉ.vip\n        - img \"ARCKHÉ.VIP\" [ref=e5]\n        - generic [ref=e6]: Participe da Comunidade\n      - link \"ARCKHÉ.PRO Assine o ARCKHÉ.PRO\" [ref=e7] [cursor=pointer]:\n        - /url: https://ARCKHÉ.pro\n        - img \"ARCKHÉ.PRO\" [ref=e8]\n        - generic [ref=e9]: Assine o ARCKHÉ.PRO\n      - generic [ref=e10]:\n        - heading \"ARCKHÉ AI Portal ARCKHÉ\" [level=1] [ref=e11]\n        - paragraph [ref=e12]: \"Aprenda Inteligência Artificial na prática: cursos, agentes, automação e comunidade\"\n        - generic [ref=e13]:\n(…)\nferramentas WebMCP vistas: 8 · buscar_conhecimento [readOnly], buscar_cursos [readOnly], comparar_cursos [readOnly], …\nsnapshot: 1040 linhas · 749 elementos com ref\nsaída: 0</pre><p>Here the site is ARCKHÉ AI, ARCKHÉ's own. On your machine, swap in the address of one of your own sites: a browser agent only against your own site. The summary shows how many lines and refs the agent receives; ARCKHÉ AI has an origin trial token, so the kit's Chromium 156 also saw its 8 WebMCP tools, with no flag at all.</p>"
           },
           {
             "rot": "Connect to the agent (10/19/2026)",
@@ -268,7 +268,7 @@
       "links": [
         {
           "t": "Course kit: ver-como-agente.mjs",
-          "href": "https://github.com/inematds/formacao-webmcp-navegador-v72/blob/main/kit/ver-como-agente.mjs",
+          "href": "https://github.com/linnoff88-dev/formacao-webmcp-navegador-v72/blob/main/kit/ver-como-agente.mjs",
           "icone": "arquivo"
         },
         {
@@ -283,7 +283,7 @@
         },
         {
           "t": "Course 0, lesson 2: what the agent sees",
-          "href": "https://inematds.github.io/formacao-webmcp-base-v72/en/aulas/o-que-o-agente-ve/",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "seta"
         }
       ]

@@ -1,6 +1,6 @@
 # PLANO — Agentes de navegador: testar o site como o agente vê (Formação WebMCP · curso 3 de 6) — 19/10/2026
 
-Repo `inematds/formacao-webmcp-navegador-v72`. Peça do CURRICULO: `~/projetos/wifi/longrun/2026-10-19-formacao-webmcp-v72/CURRICULO.md` §3. Régua de "atual": `PESQUISA-ESTADO-DA-ARTE.md` (19/10/2026).
+Repo `linnoff88-dev/formacao-webmcp-navegador-v72`. Peça do CURRICULO: `~/projetos/wifi/longrun/2026-10-19-formacao-webmcp-v72/CURRICULO.md` §3. Régua de "atual": `PESQUISA-ESTADO-DA-ARTE.md` (19/10/2026).
 Público: dev ou QA que edita HTML/JS e roda terminal. Sai com uma bateria de tarefas que um agente roda contra o próprio site (local).
 Kit: `kit/` — Playwright 1.64.0 (07/10/2026, Chromium 156.0.8078.4), `@playwright/mcp` 0.0.83 (28/09/2026), `chrome-devtools-mcp` 1.10.1 (23/09/2026; a 1.11.0 é de 15/10 e não foi testada), `@modelcontextprotocol/sdk` 1.32.1 (05/10/2026, só o cliente de ensaio). Node 20.19+ (exigência do chrome-devtools-mcp). Site fictício Oficina Pedal Livre (o mesmo do curso 0) servido em 127.0.0.1. **Nenhum passo chama modelo**, exceto o passo opcional da aula 6 (um `claude -p`, verificado só pelo formato).
 

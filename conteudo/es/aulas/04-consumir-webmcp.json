@@ -81,9 +81,9 @@
         },
         {
           "titulo": "Con token de verdad",
-          "sub": "inema.club",
+          "sub": "ARCKHÉ AI",
           "texto": [
-            "En la clase 2, el mismo Chromium vio las 8 herramientas de inema.club sin ninguna flag: el sitio tiene token de origin trial y Chromium 156 está dentro del trial.",
+            "En la clase 2, el mismo Chromium vio las 8 herramientas de ARCKHÉ AI sin ninguna flag: el sitio tiene token de origin trial y Chromium 156 está dentro del trial.",
             "Playwright lee <code>document.modelContext ?? navigator.modelContext</code>: el segundo es el nombre antiguo (antes del PR #177, aceptado el 19/05/2026), que la herramienta todavía acepta. No lo uses en código nuevo."
           ]
         },
@@ -295,17 +295,17 @@
         },
         {
           "t": "Kit del curso: consumir.mjs y origens.mjs",
-          "href": "https://github.com/inematds/formacao-webmcp-navegador-v72/tree/main/kit",
+          "href": "https://github.com/linnoff88-dev/formacao-webmcp-navegador-v72/tree/main/kit",
           "icone": "pasta"
         },
         {
           "t": "Curso 2 de la formación: WebMCP en tu sitio (registrar herramientas)",
-          "href": "https://inematds.github.io/formacao-webmcp-site-v72/es/",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "seta"
         },
         {
           "t": "Curso 4 de la formación: seguridad y confianza entre sitio y agente",
-          "href": "https://inematds.github.io/formacao-webmcp-seguranca-v72/es/",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "escudo"
         }
       ]

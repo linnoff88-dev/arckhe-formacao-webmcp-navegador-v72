@@ -139,7 +139,7 @@
         {
           "rot": "Terminal · snapshot de un sitio tuyo",
           "icone": "lupa",
-          "conteudo": "cd ~/projetos/formacao-webmcp-navegador-v72/kit\nnode ver-como-agente.mjs https://inema.club/; echo \"saída: $?\""
+          "conteudo": "cd ~/projetos/formacao-webmcp-navegador-v72/kit\nnode ver-como-agente.mjs https://ARCKHÉ AI/; echo \"saída: $?\""
         },
         {
           "rot": "Terminal · conectar a Claude Code y a Codex",
@@ -151,8 +151,8 @@
         "selo": "real",
         "abas": [
           {
-            "rot": "Sitio real: inema.club (19/10/2026)",
-            "html": "<pre>→ browser_navigate {\"url\":\"https://inema.club/\"}\n→ browser_snapshot {}\n- generic [active] [ref=e1]:\n  - banner [ref=e2]:\n    - generic [ref=e3]:\n      - link \"INEMA.VIP Participe da Comunidade\" [ref=e4] [cursor=pointer]:\n        - /url: https://inema.vip\n        - img \"INEMA.VIP\" [ref=e5]\n        - generic [ref=e6]: Participe da Comunidade\n      - link \"INEMA.PRO Assine o INEMA.PRO\" [ref=e7] [cursor=pointer]:\n        - /url: https://inema.pro\n        - img \"INEMA.PRO\" [ref=e8]\n        - generic [ref=e9]: Assine o INEMA.PRO\n      - generic [ref=e10]:\n        - heading \"INEMA.CLUB Portal INEMA\" [level=1] [ref=e11]\n        - paragraph [ref=e12]: \"Aprenda Inteligência Artificial na prática: cursos, agentes, automação e comunidade\"\n        - generic [ref=e13]:\n(…)\nferramentas WebMCP vistas: 8 · buscar_conhecimento [readOnly], buscar_cursos [readOnly], comparar_cursos [readOnly], …\nsnapshot: 1040 linhas · 749 elementos com ref\nsaída: 0</pre><p>Aquí el sitio es inema.club, del propio INEMA. En tu máquina, cámbialo por la dirección de un sitio tuyo: agente de navegador solo contra un sitio tuyo. El resumen trae cuántas líneas y refs recibe el agente; inema.club tiene token de origin trial, así que el Chromium 156 del kit también vio las 8 herramientas WebMCP de él, sin ninguna flag.</p>"
+            "rot": "Sitio real: ARCKHÉ AI (19/10/2026)",
+            "html": "<pre>→ browser_navigate {\"url\":\"https://ARCKHÉ AI/\"}\n→ browser_snapshot {}\n- generic [active] [ref=e1]:\n  - banner [ref=e2]:\n    - generic [ref=e3]:\n      - link \"ARCKHÉ.VIP Participe da Comunidade\" [ref=e4] [cursor=pointer]:\n        - /url: https://ARCKHÉ.vip\n        - img \"ARCKHÉ.VIP\" [ref=e5]\n        - generic [ref=e6]: Participe da Comunidade\n      - link \"ARCKHÉ.PRO Assine o ARCKHÉ.PRO\" [ref=e7] [cursor=pointer]:\n        - /url: https://ARCKHÉ.pro\n        - img \"ARCKHÉ.PRO\" [ref=e8]\n        - generic [ref=e9]: Assine o ARCKHÉ.PRO\n      - generic [ref=e10]:\n        - heading \"ARCKHÉ AI Portal ARCKHÉ\" [level=1] [ref=e11]\n        - paragraph [ref=e12]: \"Aprenda Inteligência Artificial na prática: cursos, agentes, automação e comunidade\"\n        - generic [ref=e13]:\n(…)\nferramentas WebMCP vistas: 8 · buscar_conhecimento [readOnly], buscar_cursos [readOnly], comparar_cursos [readOnly], …\nsnapshot: 1040 linhas · 749 elementos com ref\nsaída: 0</pre><p>Aquí el sitio es ARCKHÉ AI, del propio ARCKHÉ. En tu máquina, cámbialo por la dirección de un sitio tuyo: agente de navegador solo contra un sitio tuyo. El resumen trae cuántas líneas y refs recibe el agente; ARCKHÉ AI tiene token de origin trial, así que el Chromium 156 del kit también vio las 8 herramientas WebMCP de él, sin ninguna flag.</p>"
           },
           {
             "rot": "Conectar al agente (19/10/2026)",
@@ -268,7 +268,7 @@
       "links": [
         {
           "t": "Kit del curso: ver-como-agente.mjs",
-          "href": "https://github.com/inematds/formacao-webmcp-navegador-v72/blob/main/kit/ver-como-agente.mjs",
+          "href": "https://github.com/linnoff88-dev/formacao-webmcp-navegador-v72/blob/main/kit/ver-como-agente.mjs",
           "icone": "arquivo"
         },
         {
@@ -283,7 +283,7 @@
         },
         {
           "t": "Curso 0, clase 2: lo que el agente ve",
-          "href": "https://inematds.github.io/formacao-webmcp-base-v72/es/aulas/o-que-o-agente-ve/",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "seta"
         }
       ]

@@ -139,7 +139,7 @@
         {
           "rot": "Terminal · snapshot de um site seu",
           "icone": "lupa",
-          "conteudo": "cd ~/projetos/formacao-webmcp-navegador-v72/kit\nnode ver-como-agente.mjs https://inema.club/; echo \"saída: $?\""
+          "conteudo": "cd ~/projetos/formacao-webmcp-navegador-v72/kit\nnode ver-como-agente.mjs https://ARCKHÉ AI/; echo \"saída: $?\""
         },
         {
           "rot": "Terminal · ligar ao Claude Code e ao Codex",
@@ -151,8 +151,8 @@
         "selo": "real",
         "abas": [
           {
-            "rot": "Site real: inema.club (19/10/2026)",
-            "html": "<pre>→ browser_navigate {\"url\":\"https://inema.club/\"}\n→ browser_snapshot {}\n- generic [active] [ref=e1]:\n  - banner [ref=e2]:\n    - generic [ref=e3]:\n      - link \"INEMA.VIP Participe da Comunidade\" [ref=e4] [cursor=pointer]:\n        - /url: https://inema.vip\n        - img \"INEMA.VIP\" [ref=e5]\n        - generic [ref=e6]: Participe da Comunidade\n      - link \"INEMA.PRO Assine o INEMA.PRO\" [ref=e7] [cursor=pointer]:\n        - /url: https://inema.pro\n        - img \"INEMA.PRO\" [ref=e8]\n        - generic [ref=e9]: Assine o INEMA.PRO\n      - generic [ref=e10]:\n        - heading \"INEMA.CLUB Portal INEMA\" [level=1] [ref=e11]\n        - paragraph [ref=e12]: \"Aprenda Inteligência Artificial na prática: cursos, agentes, automação e comunidade\"\n        - generic [ref=e13]:\n(…)\nferramentas WebMCP vistas: 8 · buscar_conhecimento [readOnly], buscar_cursos [readOnly], comparar_cursos [readOnly], …\nsnapshot: 1040 linhas · 749 elementos com ref\nsaída: 0</pre><p>Aqui o site é o inema.club, do próprio INEMA. Na sua máquina, troque pelo endereço de um site seu: agente de navegador só contra site seu. O resumo traz quantas linhas e refs o agente recebe; o inema.club tem token de origin trial, então o Chromium 156 do kit também viu as 8 ferramentas WebMCP dele, sem flag nenhuma.</p>"
+            "rot": "Site real: ARCKHÉ AI (19/10/2026)",
+            "html": "<pre>→ browser_navigate {\"url\":\"https://ARCKHÉ AI/\"}\n→ browser_snapshot {}\n- generic [active] [ref=e1]:\n  - banner [ref=e2]:\n    - generic [ref=e3]:\n      - link \"ARCKHÉ.VIP Participe da Comunidade\" [ref=e4] [cursor=pointer]:\n        - /url: https://ARCKHÉ.vip\n        - img \"ARCKHÉ.VIP\" [ref=e5]\n        - generic [ref=e6]: Participe da Comunidade\n      - link \"ARCKHÉ.PRO Assine o ARCKHÉ.PRO\" [ref=e7] [cursor=pointer]:\n        - /url: https://ARCKHÉ.pro\n        - img \"ARCKHÉ.PRO\" [ref=e8]\n        - generic [ref=e9]: Assine o ARCKHÉ.PRO\n      - generic [ref=e10]:\n        - heading \"ARCKHÉ AI Portal ARCKHÉ\" [level=1] [ref=e11]\n        - paragraph [ref=e12]: \"Aprenda Inteligência Artificial na prática: cursos, agentes, automação e comunidade\"\n        - generic [ref=e13]:\n(…)\nferramentas WebMCP vistas: 8 · buscar_conhecimento [readOnly], buscar_cursos [readOnly], comparar_cursos [readOnly], …\nsnapshot: 1040 linhas · 749 elementos com ref\nsaída: 0</pre><p>Aqui o site é o ARCKHÉ AI, do próprio ARCKHÉ. Na sua máquina, troque pelo endereço de um site seu: agente de navegador só contra site seu. O resumo traz quantas linhas e refs o agente recebe; o ARCKHÉ AI tem token de origin trial, então o Chromium 156 do kit também viu as 8 ferramentas WebMCP dele, sem flag nenhuma.</p>"
           },
           {
             "rot": "Ligar ao agente (19/10/2026)",
@@ -268,7 +268,7 @@
       "links": [
         {
           "t": "Kit do curso: ver-como-agente.mjs",
-          "href": "https://github.com/inematds/formacao-webmcp-navegador-v72/blob/main/kit/ver-como-agente.mjs",
+          "href": "https://github.com/linnoff88-dev/formacao-webmcp-navegador-v72/blob/main/kit/ver-como-agente.mjs",
           "icone": "arquivo"
         },
         {
@@ -283,7 +283,7 @@
         },
         {
           "t": "Curso 0, aula 2: o que o agente enxerga",
-          "href": "https://inematds.github.io/formacao-webmcp-base-v72/aulas/o-que-o-agente-ve/",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "seta"
         }
       ]

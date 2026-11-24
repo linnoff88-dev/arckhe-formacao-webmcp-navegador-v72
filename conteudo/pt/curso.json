@@ -1,21 +1,21 @@
 {
   "id": "formacao-webmcp-navegador-v72",
   "lang": "pt-BR",
-  "url": "https://inematds.github.io/formacao-webmcp-navegador-v72/",
+  "url": "https://linnoff88-dev.github.io/
   "nome": "Agentes de navegador: testar o site como o agente vê",
   "sub": "Formação WebMCP · curso 3",
   "volta": {
     "t": "Área WebMCP",
-    "href": "https://eventos.inema.pro/webmcp/"
+    "href": "https://eventos.ARCKHÉ.pro/webmcp/"
   },
   "lado_card": {
     "rot": "Formação WebMCP",
     "t": "Curso 3 de 6",
     "texto": "O kit deste curso: o site de exemplo, o Playwright MCP, o Chrome DevTools MCP e a bateria de tarefas. Tudo em 127.0.0.1, testado em 19/10/2026.",
     "link": "Abrir a pasta kit/ no GitHub",
-    "href": "https://github.com/inematds/formacao-webmcp-navegador-v72/tree/main/kit"
+    "href": "https://github.com/linnoff88-dev/formacao-webmcp-navegador-v72/tree/main/kit"
   },
-  "rodape": "INEMA.CLUB · conteúdo aberto e gratuito · formato INEMA Learning v7.2 · Formação WebMCP, curso 3 de 6 · <a href=\"https://eventos.inema.pro/webmcp/\">eventos.inema.pro/webmcp</a> · <a href=\"https://github.com/inematds/formacao-webmcp-navegador-v72/tree/main/kit\">kit do curso no GitHub</a> · <a href=\"https://inema.club/\">inema.club</a>",
+  "rodape": "ARCKHÉ AI · conteúdo aberto e gratuito · formato ARCKHÉ Learning v7.2 · Formação WebMCP, curso 3 de 6 · <a href=\"https://eventos.ARCKHÉ.pro/webmcp/\">eventos.ARCKHÉ.pro/webmcp</a> · <a href=\"https://github.com/linnoff88-dev/formacao-webmcp-navegador-v72/tree/main/kit\">kit do curso no GitHub</a> · <a href=\"https://ARCKHÉ AI/\">ARCKHÉ AI</a>",
   "videos": {},
   "inicio": {
     "kicker": "Formação WebMCP · curso 3 de 6 · 8 aulas",
@@ -24,7 +24,7 @@
     "cta": "Começar pela aula 1",
     "cta2": {
       "t": "Ver a área WebMCP",
-      "href": "https://eventos.inema.pro/webmcp/"
+      "href": "https://eventos.ARCKHÉ.pro/webmcp/"
     },
     "capa_alt": "Monitor escuro com um navegador aberto e, ao lado, um robô humanoide industrial operando o teclado.",
     "numeros": [

@@ -1,21 +1,21 @@
 {
   "id": "formacao-webmcp-navegador-v72",
   "lang": "es",
-  "url": "https://inematds.github.io/formacao-webmcp-navegador-v72/es/",
+  "url": "https://linnoff88-dev.github.io/
   "nome": "Agentes de navegador: probar el sitio como lo ve el agente",
   "sub": "Formación WebMCP · curso 3",
   "volta": {
     "t": "Área WebMCP",
-    "href": "https://eventos.inema.pro/webmcp/"
+    "href": "https://eventos.ARCKHÉ.pro/webmcp/"
   },
   "lado_card": {
     "rot": "Formación WebMCP",
     "t": "Curso 3 de 6",
     "texto": "El kit de este curso: el sitio de ejemplo, el Playwright MCP, el Chrome DevTools MCP y la batería de tareas. Todo en 127.0.0.1, probado el 19/10/2026.",
     "link": "Abrir la carpeta kit/ en GitHub",
-    "href": "https://github.com/inematds/formacao-webmcp-navegador-v72/tree/main/kit"
+    "href": "https://github.com/linnoff88-dev/formacao-webmcp-navegador-v72/tree/main/kit"
   },
-  "rodape": "INEMA.CLUB · contenido abierto y gratuito · formato INEMA Learning v7.2 · Formación WebMCP, curso 3 de 6 · <a href=\"https://eventos.inema.pro/webmcp/\">eventos.inema.pro/webmcp</a> · <a href=\"https://github.com/inematds/formacao-webmcp-navegador-v72/tree/main/kit\">kit del curso en GitHub</a> · <a href=\"https://inema.club/\">inema.club</a>",
+  "rodape": "ARCKHÉ AI · contenido abierto y gratuito · formato ARCKHÉ Learning v7.2 · Formación WebMCP, curso 3 de 6 · <a href=\"https://eventos.ARCKHÉ.pro/webmcp/\">eventos.ARCKHÉ.pro/webmcp</a> · <a href=\"https://github.com/linnoff88-dev/formacao-webmcp-navegador-v72/tree/main/kit\">kit del curso en GitHub</a> · <a href=\"https://ARCKHÉ AI/\">ARCKHÉ AI</a>",
   "videos": {},
   "inicio": {
     "kicker": "Formación WebMCP · curso 3 de 6 · 8 clases",
@@ -24,7 +24,7 @@
     "cta": "Empezar por la clase 1",
     "cta2": {
       "t": "Ver el Área WebMCP",
-      "href": "https://eventos.inema.pro/webmcp/"
+      "href": "https://eventos.ARCKHÉ.pro/webmcp/"
     },
     "capa_alt": "Monitor oscuro con un navegador abierto y, al lado, un robot humanoide industrial operando el teclado.",
     "numeros": [

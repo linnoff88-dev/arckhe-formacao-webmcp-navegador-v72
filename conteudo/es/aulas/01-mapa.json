@@ -109,7 +109,7 @@
         {
           "rot": "Terminal · instalar el kit",
           "icone": "terminal",
-          "conteudo": "[ -d ~/projetos/formacao-webmcp-navegador-v72 ] || git clone -q https://github.com/inematds/formacao-webmcp-navegador-v72 ~/projetos/formacao-webmcp-navegador-v72\ncd ~/projetos/formacao-webmcp-navegador-v72/kit\nnpm ci --no-audit --no-fund && npx playwright install chromium; echo \"saída: $?\""
+          "conteudo": "[ -d ~/projetos/formacao-webmcp-navegador-v72 ] || git clone -q https://github.com/linnoff88-dev/formacao-webmcp-navegador-v72 ~/projetos/formacao-webmcp-navegador-v72\ncd ~/projetos/formacao-webmcp-navegador-v72/kit\nnpm ci --no-audit --no-fund && npx playwright install chromium; echo \"saída: $?\""
         },
         {
           "rot": "Terminal · revisar las piezas",
@@ -252,7 +252,7 @@
         },
         {
           "t": "Curso 0 de la formación: cómo usan los agentes un sitio hoy",
-          "href": "https://inematds.github.io/formacao-webmcp-base-v72/es/",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "seta"
         }
       ]

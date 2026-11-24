@@ -32,4 +32,4 @@ node rodar-bateria.mjs bateria.json
 
 Regras: agente de navegador só contra este kit ou contra um site seu. Nada de login real, compra ou formulário de terceiros.
 
-Curso: https://inematds.github.io/formacao-webmcp-navegador-v72/ · conteúdo aberto e gratuito do INEMA.CLUB.
+Curso: https://linnoff88-dev.github.io/ · conteúdo aberto e gratuito do ARCKHÉ AI.

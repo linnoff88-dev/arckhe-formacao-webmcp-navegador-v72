@@ -1,21 +1,21 @@
 {
   "id": "formacao-webmcp-navegador-v72",
   "lang": "en",
-  "url": "https://inematds.github.io/formacao-webmcp-navegador-v72/en/",
+  "url": "https://linnoff88-dev.github.io/
   "nome": "Browser agents: test your site the way the agent sees it",
   "sub": "WebMCP Program · course 3",
   "volta": {
     "t": "WebMCP Area",
-    "href": "https://eventos.inema.pro/webmcp/"
+    "href": "https://eventos.ARCKHÉ.pro/webmcp/"
   },
   "lado_card": {
     "rot": "WebMCP Program",
     "t": "Course 3 of 6",
     "texto": "This course's kit: the example site, Playwright MCP, Chrome DevTools MCP, and the task battery. Everything on 127.0.0.1, tested on 10/19/2026.",
     "link": "Open the kit/ folder on GitHub",
-    "href": "https://github.com/inematds/formacao-webmcp-navegador-v72/tree/main/kit"
+    "href": "https://github.com/linnoff88-dev/formacao-webmcp-navegador-v72/tree/main/kit"
   },
-  "rodape": "INEMA.CLUB · open and free content · INEMA Learning v7.2 format · WebMCP Program, course 3 of 6 · <a href=\"https://eventos.inema.pro/webmcp/\">eventos.inema.pro/webmcp</a> · <a href=\"https://github.com/inematds/formacao-webmcp-navegador-v72/tree/main/kit\">course kit on GitHub</a> · <a href=\"https://inema.club/\">inema.club</a>",
+  "rodape": "ARCKHÉ AI · open and free content · ARCKHÉ Learning v7.2 format · WebMCP Program, course 3 of 6 · <a href=\"https://eventos.ARCKHÉ.pro/webmcp/\">eventos.ARCKHÉ.pro/webmcp</a> · <a href=\"https://github.com/linnoff88-dev/formacao-webmcp-navegador-v72/tree/main/kit\">course kit on GitHub</a> · <a href=\"https://ARCKHÉ AI/\">ARCKHÉ AI</a>",
   "videos": {},
   "inicio": {
     "kicker": "WebMCP Program · course 3 of 6 · 8 lessons",
@@ -24,7 +24,7 @@
     "cta": "Start with lesson 1",
     "cta2": {
       "t": "See the WebMCP area",
-      "href": "https://eventos.inema.pro/webmcp/"
+      "href": "https://eventos.ARCKHÉ.pro/webmcp/"
     },
     "capa_alt": "A dark monitor with an open browser and, next to it, an industrial humanoid robot operating the keyboard.",
     "numeros": [
