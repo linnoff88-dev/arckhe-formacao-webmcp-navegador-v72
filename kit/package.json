@@ -2,7 +2,7 @@
   "name": "kit-formacao-webmcp-navegador",
   "private": true,
   "type": "module",
-  "description": "Kit do curso 3 da Formação WebMCP (ARCKHÉ AI): página de exemplo, Playwright MCP, Chrome DevTools MCP e a bateria de tarefas que um agente roda contra o seu site. Tudo local. Versões fixadas em 19/10/2026.",
+  "description": "Kit do curso 3 da Formaçêo WebMCP (ARCKHÉ AI): página de exemplo, Playwright MCP, Chrome DevTools MCP e a bateria de tarefas que um agente roda contra o seu site. Tudo local. Versões fixadas em 19/10/2026.",
   "dependencies": {
     "@modelcontextprotocol/sdk": "1.32.1",
     "@playwright/mcp": "0.0.83",

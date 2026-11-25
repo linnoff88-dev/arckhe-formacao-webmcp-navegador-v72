@@ -10,14 +10,14 @@
 <body>
 <main>
   <h1>Vitrine com widget de frete</h1>
-  <p>O quadro abaixo vem de outra origem. Use ?widget=URL&amp;allow=0 para tirar a permissão "tools".</p>
+  <p>O quadro abaixo vem de outra origem. Use ?widget=URL&amp;allow=0 para tirar a permissêo "tools".</p>
   <div id="quadro"></div>
 </main>
 <script type="module">
 // Página da origem A que embute um iframe da origem B (aula 4). Rascunho WebMCP de 16/10/2026, experimental.
 const q = new URLSearchParams(location.search);
 const f = document.createElement('iframe');
-if (q.get('allow') !== '0') f.allow = 'tools';            // permissions policy "tools": sem ela, o iframe não usa a API
+if (q.get('allow') !== '0') f.allow = 'tools';            // permissions policy "tools": sem ela, o iframe nêo usa a API
 f.src = `${q.get('widget')}?topo=${encodeURIComponent(location.origin)}`;
 f.title = 'Widget de frete';
 document.getElementById('quadro').append(f);

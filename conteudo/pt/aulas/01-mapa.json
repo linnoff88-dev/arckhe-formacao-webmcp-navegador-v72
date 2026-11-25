@@ -5,7 +5,7 @@
   "titulo": "O mapa de out/2026: computer use, extensões, navegadores com agente e ferramentas de dev",
   "titulo_curto": "O mapa dos agentes",
   "minutos": 15,
-  "lead": "Agente de navegador virou várias coisas diferentes: um modelo que olha a tela, uma extensão no seu Chrome, um navegador inteiro com agente dentro e ferramentas que dão um navegador ao Claude Code ou ao Codex. Nesta aula você separa as quatro famílias, lê o status de cada uma com data e deixa o kit do curso pronto.",
+  "lead": "Agente de navegador virou várias coisas diferentes: um modelo que olha a tela, uma extensêo no seu Chrome, um navegador inteiro com agente dentro e ferramentas que dêo um navegador ao Claude Code ou ao Codex. Nesta aula você separa as quatro famílias, lê o status de cada uma com data e deixa o kit do curso pronto.",
   "objetivo": "situar computer use, extensões, navegadores com agente e ferramentas de dev, com status datado, e deixar o kit pronto.",
   "competencias": [
     "classificar-agentes-de-navegador",
@@ -23,7 +23,7 @@
     },
     {
       "icone": "terminal",
-      "t": "O kit: Playwright MCP e Chrome DevTools MCP com versão fixada"
+      "t": "O kit: Playwright MCP e Chrome DevTools MCP com versêo fixada"
     },
     {
       "icone": "alvo",
@@ -41,7 +41,7 @@
           "icone": "robo",
           "titulo": "Computer use",
           "sub": "vê a tela",
-          "detalhe": "O modelo recebe capturas de tela e devolve cliques e teclas. Serve para qualquer programa, mas é o jeito mais caro e frágil. O benchmark de referência é o OSWorld: no artigo original, humanos fizeram 72,36% das tarefas e o melhor modelo da época, 12,24%. O OSWorld 2.0 saiu em 26/06/2026; o placar atual não foi conferido aqui."
+          "detalhe": "O modelo recebe capturas de tela e devolve cliques e teclas. Serve para qualquer programa, mas é o jeito mais caro e frágil. O benchmark de referência é o OSWorld: no artigo original, humanos fizeram 72,36% das tarefas e o melhor modelo da época, 12,24%. O OSWorld 2.0 saiu em 26/06/2026; o placar atual nêo foi conferido aqui."
         },
         {
           "icone": "pasta",
@@ -53,14 +53,14 @@
           "icone": "nuvem",
           "titulo": "Navegador com agente",
           "sub": "agente embutido",
-          "detalhe": "O agente vem dentro do navegador: um navegador feito em volta dele, como o ChatGPT Atlas (OpenAI), ou um recurso do próprio Chrome, como o auto browse (Google). Os dois aparecem na cobertura de imprensa; as páginas primárias não foram lidas, então ficam como relatado, não confirmado em 19/10/2026."
+          "detalhe": "O agente vem dentro do navegador: um navegador feito em volta dele, como o ChatGPT Atlas (OpenAI), ou um recurso do próprio Chrome, como o auto browse (Google). Os dois aparecem na cobertura de imprensa; as páginas primárias nêo foram lidas, entêo ficam como relatado, nêo confirmado em 19/10/2026."
         },
         {
           "icone": "terminal",
           "titulo": "Ferramentas de dev",
           "sub": "MCP de navegador",
           "forte": true,
-          "detalhe": "Servidores MCP que dão um navegador ao seu agente de código: Playwright MCP (Microsoft, lê a árvore de acessibilidade) e Chrome DevTools MCP (Google, console, rede e desempenho). São estes que o curso usa: rodam na sua máquina, com versão fixada, contra páginas locais."
+          "detalhe": "Servidores MCP que dêo um navegador ao seu agente de código: Playwright MCP (Microsoft, lê a árvore de acessibilidade) e Chrome DevTools MCP (Google, console, rede e desempenho). Sêo estes que o curso usa: rodam na sua máquina, com versêo fixada, contra páginas locais."
         }
       ],
       "legenda": "As quatro chegam ao mesmo HTML. O que você testar com a quarta vale, em boa parte, para as outras três.",
@@ -75,7 +75,7 @@
           "titulo": "Quem disse?",
           "sub": "fonte primária",
           "texto": [
-            "Post do fabricante, documentação ou repositório oficial valem como fato. Matéria de imprensa e agregador valem como \"relatado por\".",
+            "Post do fabricante, documentaçêo ou repositório oficial valem como fato. Matéria de imprensa e agregador valem como \"relatado por\".",
             "Exemplo: o post da Anthropic de 24/11/2025 é fonte primária; o post da OpenAI sobre o Atlas (22/12/2025), aqui, só veio pela cobertura."
           ]
         },
@@ -83,15 +83,15 @@
           "titulo": "Quando?",
           "sub": "data na frase",
           "texto": [
-            "Escreva a data junto do status: \"beta no plano Max em 24/11/2025\", e não \"está em beta\". Em seis meses a frase sem data vira mentira.",
-            "Versão de pacote também é status: o kit fixa <code>@playwright/mcp</code> 0.0.83 e <code>chrome-devtools-mcp</code> 1.10.1, publicados em 28/09 e 23/09/2026 segundo o registro do npm."
+            "Escreva a data junto do status: \"beta no plano Max em 24/11/2025\", e nêo \"está em beta\". Em seis meses a frase sem data vira mentira.",
+            "Versêo de pacote também é status: o kit fixa <code>@playwright/mcp</code> 0.0.83 e <code>chrome-devtools-mcp</code> 1.10.1, publicados em 28/09 e 23/09/2026 segundo o registro do npm."
           ]
         },
         {
           "titulo": "Roda onde?",
           "sub": "sua máquina ou nuvem",
           "texto": [
-            "Extensão e navegador com agente rodam na conta de alguém e gastam assinatura. As ferramentas de dev rodam local, contra 127.0.0.1, sem modelo nenhum se você quiser.",
+            "Extensêo e navegador com agente rodam na conta de alguém e gastam assinatura. As ferramentas de dev rodam local, contra 127.0.0.1, sem modelo nenhum se você quiser.",
             "Por isso o curso ensaia tudo com elas e deixa o agente real para um passo opcional."
           ],
           "exemplo": {
@@ -104,7 +104,7 @@
     {
       "tipo": "codigo",
       "titulo": "O kit pronto em dois comandos",
-      "sub": "Instala as versões fixadas e confere as peças. O versoes.mjs não chama rede nem modelo.",
+      "sub": "Instala as versões fixadas e confere as peças. O versoes.mjs nêo chama rede nem modelo.",
       "blocos": [
         {
           "rot": "Terminal · instalar o kit",
@@ -125,8 +125,8 @@
             "html": "<pre>node                   24.13.0\nplaywright             1.64.0 · Chromium 156.0.8078.4\n@playwright/mcp        0.0.83\nchrome-devtools-mcp    1.10.1\n@modelcontextprotocol/sdk 1.32.1 (cliente de ensaio, sem modelo)\nclaude (opcional)      2.1.303 (Claude Code)\ncodex (opcional)       codex-cli 0.163.0\nkit pronto: 4 de 4 peças obrigatórias\nsaída: 0</pre><p>Quatro peças obrigatórias: Node 20.19+, 22.12+ ou 23+ (o chrome-devtools-mcp exige), o Playwright com o Chromium dele, o Playwright MCP e o Chrome DevTools MCP. Claude Code e Codex aparecem como opcionais: o curso inteiro roda sem eles.</p>"
           },
           {
-            "rot": "Instalação (19/10/2026)",
-            "html": "<pre>added 101 packages in 2s\nsaída: 0</pre><p>O <code>npm ci</code> instala exatamente o que está no <code>package-lock.json</code>. Na primeira vez, o <code>npx playwright install chromium</code> baixa o Chromium do Playwright (algumas centenas de MB); nas seguintes, não imprime nada.</p>"
+            "rot": "Instalaçêo (19/10/2026)",
+            "html": "<pre>added 101 packages in 2s\nsaída: 0</pre><p>O <code>npm ci</code> instala exatamente o que está no <code>package-lock.json</code>. Na primeira vez, o <code>npx playwright install chromium</code> baixa o Chromium do Playwright (algumas centenas de MB); nas seguintes, nêo imprime nada.</p>"
           }
         ]
       }
@@ -160,7 +160,7 @@
           "p": "Qual família de agente este curso usa para testar o site, e por quê?",
           "opcoes": [
             "Computer use, porque funciona com qualquer programa da máquina",
-            "Ferramentas de dev, porque rodam local, com versão fixada",
+            "Ferramentas de dev, porque rodam local, com versêo fixada",
             "Navegador com agente, porque é o que o cliente final usa",
             "Extensões, porque já vêm instaladas em todo Chrome"
           ],
@@ -173,12 +173,12 @@
           "p": "Você leu numa matéria que um navegador com agente chegou ao Android em agosto. Como escreve isso no seu mapa?",
           "opcoes": [
             "Como fato, se a matéria for de um site conhecido e confiável",
-            "Não escreve: notícia de imprensa nunca serve",
-            "Como \"relatado por [site], não confirmado em [data]\"",
+            "Nêo escreve: notícia de imprensa nunca serve",
+            "Como \"relatado por [site], nêo confirmado em [data]\"",
             "Como fato, desde que outra matéria repita a data"
           ],
           "certa": 2,
-          "explica": "Sem a fonte primária, entra como relatado, com a data em que você conferiu. Duas matérias que copiam a mesma fonte continuam sendo segunda mão.",
+          "explica": "Sem a fonte primária, entra como relatado, com a data em que você conferiu. Duas matérias que copiam a mesma fonte continuam sendo segunda mêo.",
           "ref": "passos"
         },
         {
@@ -186,7 +186,7 @@
           "opcoes": [
             "Que nenhum agente de navegador é imune, mesmo com ~1% de ataques bem-sucedidos",
             "Que o problema foi resolvido no Claude para Chrome",
-            "Que só extensões são vulneráveis; ferramentas de dev rodam isoladas e não correm risco",
+            "Que só extensões sêo vulneráveis; ferramentas de dev rodam isoladas e nêo correm risco",
             "Que o risco some quando o site usa WebMCP"
           ],
           "certa": 0,
@@ -195,15 +195,15 @@
           "cert": true
         },
         {
-          "p": "Por que o kit fixa @playwright/mcp 0.0.83 em vez de usar a última versão?",
+          "p": "Por que o kit fixa @playwright/mcp 0.0.83 em vez de usar a última versêo?",
           "opcoes": [
-            "Porque a última versão exige chave de API",
-            "Porque versões novas não rodam headless",
-            "Porque o npm bloqueia a instalação de versões com menos de um mês",
-            "Porque a saída capturada só vale para a versão testada"
+            "Porque a última versêo exige chave de API",
+            "Porque versões novas nêo rodam headless",
+            "Porque o npm bloqueia a instalaçêo de versões com menos de um mês",
+            "Porque a saída capturada só vale para a versêo testada"
           ],
           "certa": 3,
-          "explica": "A saída de cada bloco foi capturada com aquela versão, em 19/10/2026. Em versão nova, nomes de ferramenta e formato da resposta podem mudar.",
+          "explica": "A saída de cada bloco foi capturada com aquela versêo, em 19/10/2026. Em versêo nova, nomes de ferramenta e formato da resposta podem mudar.",
           "ref": "passos"
         }
       ]
@@ -222,7 +222,7 @@
         },
         {
           "t": "Testar local",
-          "texto": "Playwright MCP e DevTools MCP rodam na sua máquina, com versão fixada e sem gastar cota."
+          "texto": "Playwright MCP e DevTools MCP rodam na sua máquina, com versêo fixada e sem gastar cota."
         }
       ]
     },
@@ -251,7 +251,7 @@
           "icone": "grafico"
         },
         {
-          "t": "Curso 0 da formação: como os agentes usam um site hoje",
+          "t": "Curso 0 da formaçêo: como os agentes usam um site hoje",
           "href": "https://linnoff88-dev.github.io/
           "icone": "seta"
         }

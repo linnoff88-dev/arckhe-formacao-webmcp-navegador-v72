@@ -13,7 +13,7 @@ const topo = new URLSearchParams(location.search).get('topo');   // origem da p�
 const r = [];
 if ('modelContext' in document) {
   try {
-    await document.modelContext.registerTool({ name: 'widget_privado', description: 'Calcula frete. Sem exposedTo: visível só pela regra padrão.',
+    await document.modelContext.registerTool({ name: 'widget_privado', description: 'Calcula frete. Sem exposedTo: visível só pela regra padrêo.',
       inputSchema: { type: 'object', properties: {} }, annotations: { readOnlyHint: true }, execute: async () => ({ frete: 'R$ 0,00' }) });
     await document.modelContext.registerTool({ name: 'widget_exposto', description: 'Calcula frete. exposedTo: a origem da vitrine.',
       inputSchema: { type: 'object', properties: {} }, annotations: { readOnlyHint: true }, execute: async () => ({ frete: 'R$ 0,00' }) },

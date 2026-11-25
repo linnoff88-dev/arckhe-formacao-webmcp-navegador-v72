@@ -13,7 +13,7 @@
         - generic [ref=e9]: Assine o ARCKHÉ.PRO
       - generic [ref=e10]:
         - heading "ARCKHÉ AI Portal ARCKHÉ" [level=1] [ref=e11]
-        - paragraph [ref=e12]: "Aprenda Inteligência Artificial na prática: cursos, agentes, automação e comunidade"
+        - paragraph [ref=e12]: "Aprenda Inteligência Artificial na prática: cursos, agentes, automaçêo e comunidade"
         - generic [ref=e13]:
 (…)
 ferramentas WebMCP vistas: 8 · buscar_conhecimento [readOnly], buscar_cursos [readOnly], comparar_cursos [readOnly], …

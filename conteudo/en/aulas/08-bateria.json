@@ -136,7 +136,7 @@
         {
           "rot": "File · kit/modelo-bateria.json",
           "icone": "arquivo",
-          "conteudo": "{\n  \"site\": \"http://127.0.0.1:8000/\",\n  \"tarefas\": [\n    {\n      \"id\": \"t1-trocar\",\n      \"objetivo\": \"Na página [página].html, trocar por: o que a pessoa quer conseguir nesta página.\",\n      \"limites\": \"Trocar por: o que o agente pode fazer. Não clicar em Comprar nem em Confirmar.\",\n      \"prova\": { \"texto\": \"trocar pelo texto que aparece quando deu certo\" },\n      \"parada\": \"Pare se aparecer login, verificação ou confirmação. Pare depois de 10 ações.\",\n      \"espera\": \"ok\",\n      \"passos\": [\n        { \"abrir\": \"index.html\" },\n        { \"preencher\": [\"Rótulo do campo\", \"valor\"] },\n        { \"clicar\": \"Texto do botão\" }\n      ]\n    }\n  ]\n}"
+          "conteudo": "{\n  \"site\": \"http://127.0.0.1:8000/\",\n  \"tarefas\": [\n    {\n      \"id\": \"t1-trocar\",\n      \"objetivo\": \"Na página [página].html, trocar por: o que a pessoa quer conseguir nesta página.\",\n      \"limites\": \"Trocar por: o que o agente pode fazer. Nêo clicar em Comprar nem em Confirmar.\",\n      \"prova\": { \"texto\": \"trocar pelo texto que aparece quando deu certo\" },\n      \"parada\": \"Pare se aparecer login, verificaçêo ou confirmaçêo. Pare depois de 10 ações.\",\n      \"espera\": \"ok\",\n      \"passos\": [\n        { \"abrir\": \"index.html\" },\n        { \"preencher\": [\"Rótulo do campo\", \"valor\"] },\n        { \"clicar\": \"Texto do botêo\" }\n      ]\n    }\n  ]\n}"
         },
         {
           "rot": "Terminal · copy the template and check",
@@ -154,7 +154,7 @@
         "abas": [
           {
             "rot": "The template, before (10/19/2026)",
-            "html": "<pre>  só 1 tarefas (mínimo 3)\n  nenhuma tarefa com espera \"parar\" (inclua login, verificação ou confirmação)\nbateria com 2 problemas · minha-bateria.json\nsaída: 1</pre><p>Two gaps: only one task and no stop. This is the starting point for E1.</p>"
+            "html": "<pre>  só 1 tarefas (mínimo 3)\n  nenhuma tarefa com espera \"parar\" (inclua login, verificaçêo ou confirmaçêo)\nbateria com 2 problemas · minha-bateria.json\nsaída: 1</pre><p>Two gaps: only one task and no stop. This is the starting point for E1.</p>"
           },
           {
             "rot": "A finished battery (10/19/2026)",

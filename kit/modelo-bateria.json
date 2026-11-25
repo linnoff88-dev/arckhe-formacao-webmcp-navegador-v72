@@ -4,14 +4,14 @@
     {
       "id": "t1-trocar",
       "objetivo": "Na página [página].html, trocar por: o que a pessoa quer conseguir nesta página.",
-      "limites": "Trocar por: o que o agente pode fazer. Não clicar em Comprar nem em Confirmar.",
+      "limites": "Trocar por: o que o agente pode fazer. Nêo clicar em Comprar nem em Confirmar.",
       "prova": { "texto": "trocar pelo texto que aparece quando deu certo" },
-      "parada": "Pare se aparecer login, verificação ou confirmação. Pare depois de 10 ações.",
+      "parada": "Pare se aparecer login, verificaçêo ou confirmaçêo. Pare depois de 10 ações.",
       "espera": "ok",
       "passos": [
         { "abrir": "index.html" },
         { "preencher": ["Rótulo do campo", "valor"] },
-        { "clicar": "Texto do botão" }
+        { "clicar": "Texto do botêo" }
       ]
     }
   ]

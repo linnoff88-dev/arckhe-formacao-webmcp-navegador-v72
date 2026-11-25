@@ -2,10 +2,10 @@
 → browser_snapshot {}
   achei: textbox "Seu nome" = e13 · combobox "Serviço" = e15 · button "Ver horários" = e18
 → browser_type {"target":"e13","text":"Ana"}
-→ browser_select_option {"target":"e15","values":["Revisão completa"]}
+→ browser_select_option {"target":"e15","values":["Revisêo completa"]}
 → browser_click {"target":"e18"}
 → browser_wait_for {"text":"horários livres para"}
 → browser_snapshot {}
-  status na página: 2 horários livres para Revisão completa em 2026-11-03.
-tarefa: horários de Revisão completa em 2026-11-03 → 2 (08:00, 13:00) em 7 chamadas
+  status na página: 2 horários livres para Revisêo completa em 2026-11-03.
+tarefa: horários de Revisêo completa em 2026-11-03 → 2 (08:00, 13:00) em 7 chamadas
 saída: 0

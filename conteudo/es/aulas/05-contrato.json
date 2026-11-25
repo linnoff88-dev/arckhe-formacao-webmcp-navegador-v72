@@ -117,7 +117,7 @@
         {
           "rot": "Archivo · kit/contratos/exemplo.md",
           "icone": "arquivo",
-          "conteudo": "# Contrato: horários de troca de pneu\n\n## Objetivo\nNa página http://127.0.0.1:8433/agendar.html, descobrir os horários livres de \"Troca de pneu\" em 2026-11-03.\n\n## Limites\nPode preencher o formulário e clicar em \"Ver horários\". Não clique em \"Agendar às…\" nem em \"Confirmar\". Não saia de http://127.0.0.1:8433/.\n\n## Prova\nA página mostra \"4 horários livres para Troca de pneu em 2026-11-03.\" Devolva os horários copiados da lista, não de memória.\n\n## Parada\nPare e descreva a tela se aparecer login, verificação humana ou pedido de confirmação. Pare depois de 10 ações sem chegar à prova."
+          "conteudo": "# Contrato: horários de troca de pneu\n\n## Objetivo\nNa página http://127.0.0.1:8433/agendar.html, descobrir os horários livres de \"Troca de pneu\" em 2026-11-03.\n\n## Limites\nPode preencher o formulário e clicar em \"Ver horários\". Nêo clique em \"Agendar às…\" nem em \"Confirmar\". Nêo saia de http://127.0.0.1:8433/.\n\n## Prova\nA página mostra \"4 horários livres para Troca de pneu em 2026-11-03.\" Devolva os horários copiados da lista, nêo de memória.\n\n## Parada\nPare e descreva a tela se aparecer login, verificaçêo humana ou pedido de confirmaçêo. Pare depois de 10 ações sem chegar à prova."
         },
         {
           "rot": "Terminal · verificar el contrato completo",
@@ -139,7 +139,7 @@
           },
           {
             "rot": "Error común: el pedido vago",
-            "html": "<pre>contrato incompleto: 0/4 partes · contratos/vago.md\n  falta: objetivo sem o lugar (endereço ou página)\n  falta: limites (o que pode e o que não pode)\n  falta: prova (o que se vê na página quando acabou)\n  falta: parada (quando parar e chamar a pessoa)\nsaída: 1</pre><p>\"Agende uma revisão pra mim no site da oficina\" no dice la página, no tiene límite, no tiene prueba y no tiene parada. Un agente con ese pedido puede hacer clic en Confirmar.</p>"
+            "html": "<pre>contrato incompleto: 0/4 partes · contratos/vago.md\n  falta: objetivo sem o lugar (endereço ou página)\n  falta: limites (o que pode e o que nêo pode)\n  falta: prova (o que se vê na página quando acabou)\n  falta: parada (quando parar e chamar a pessoa)\nsaída: 1</pre><p>\"Agende uma revisêo pra mim no site da oficina\" no dice la página, no tiene límite, no tiene prueba y no tiene parada. Un agente con ese pedido puede hacer clic en Confirmar.</p>"
           }
         ]
       }

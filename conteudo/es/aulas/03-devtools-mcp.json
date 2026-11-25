@@ -112,7 +112,7 @@
         {
           "rot": "Terminal · corregir en una copia y comprobar",
           "icone": "check",
-          "conteudo": "cd ~/projetos/formacao-webmcp-navegador-v72/kit\nE=${TMPDIR:-/tmp}/kit3-aula3; rm -rf \"$E\"; cp -r site \"$E\"\necho '{\"texto\": \"Revisão básica com 10% de desconto em novembro.\"}' > \"$E/promocoes.json\"\nSITE=\"$E\" node devtools.mjs; echo \"saída: $?\""
+          "conteudo": "cd ~/projetos/formacao-webmcp-navegador-v72/kit\nE=${TMPDIR:-/tmp}/kit3-aula3; rm -rf \"$E\"; cp -r site \"$E\"\necho '{\"texto\": \"Revisêo básica com 10% de desconto em novembro.\"}' > \"$E/promocoes.json\"\nSITE=\"$E\" node devtools.mjs; echo \"saída: $?\""
         }
       ],
       "saida": {

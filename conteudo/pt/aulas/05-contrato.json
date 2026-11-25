@@ -5,7 +5,7 @@
   "titulo": "Contrato de tarefa para agente de navegador (objetivo, limites, prova, parada)",
   "titulo_curto": "O contrato da tarefa",
   "minutos": 15,
-  "lead": "\"Agende uma revisão pra mim no site\" parece um pedido. Para um agente de navegador, falta tudo: em que página, o que ele pode tocar, como provar que acabou e quando parar. Nesta aula você escreve o contrato de uma tarefa em quatro partes e confere com um script que o contrato está completo antes de entregar a qualquer agente.",
+  "lead": "\"Agende uma revisêo pra mim no site\" parece um pedido. Para um agente de navegador, falta tudo: em que página, o que ele pode tocar, como provar que acabou e quando parar. Nesta aula você escreve o contrato de uma tarefa em quatro partes e confere com um script que o contrato está completo antes de entregar a qualquer agente.",
   "objetivo": "escrever o contrato de uma tarefa de navegador com objetivo, limites, prova e parada, e conferir que está completo.",
   "competencias": [
     "escrever-contrato-de-tarefa",
@@ -19,7 +19,7 @@
     },
     {
       "icone": "cadeado",
-      "t": "Limites: o que pode e o que não pode"
+      "t": "Limites: o que pode e o que nêo pode"
     },
     {
       "icone": "check",
@@ -47,21 +47,21 @@
         {
           "icone": "cadeado",
           "titulo": "Limites",
-          "sub": "pode × não pode",
-          "detalhe": "O que ele pode fazer e, com todas as letras, o que não pode: \"Não clique em Agendar às… nem em Confirmar. Não saia de http://127.0.0.1:8433/.\" Tudo fora da lista é intocável."
+          "sub": "pode × nêo pode",
+          "detalhe": "O que ele pode fazer e, com todas as letras, o que nêo pode: \"Nêo clique em Agendar às… nem em Confirmar. Nêo saia de http://127.0.0.1:8433/.\" Tudo fora da lista é intocável."
         },
         {
           "icone": "check",
           "titulo": "Prova",
           "sub": "o que se vê",
           "forte": true,
-          "detalhe": "Um texto que aparece na página quando acabou, entre aspas: \"4 horários livres para Troca de pneu em 2026-11-03.\" A frase \"concluído\" não é prova; captura de tela sozinha também não."
+          "detalhe": "Um texto que aparece na página quando acabou, entre aspas: \"4 horários livres para Troca de pneu em 2026-11-03.\" A frase \"concluído\" nêo é prova; captura de tela sozinha também nêo."
         },
         {
           "icone": "x",
           "titulo": "Parada",
           "sub": "quando parar",
-          "detalhe": "Quando parar e chamar a pessoa (login, verificação humana, confirmação) e um orçamento: \"Pare depois de 10 ações sem chegar à prova.\" Parar com o motivo exato é um resultado previsto, não um fracasso."
+          "detalhe": "Quando parar e chamar a pessoa (login, verificaçêo humana, confirmaçêo) e um orçamento: \"Pare depois de 10 ações sem chegar à prova.\" Parar com o motivo exato é um resultado previsto, nêo um fracasso."
         }
       ],
       "legenda": "Sem prova, o resultado é promessa. Sem limites, o site inteiro está em jogo. Sem parada, o agente insiste até inventar."
@@ -75,16 +75,16 @@
           "titulo": "Objetivo",
           "sub": "com lugar",
           "texto": [
-            "20 letras ou mais e um lugar: endereço ou nome da página. \"No site da oficina\" não serve; \"na página agendar.html\" serve.",
+            "20 letras ou mais e um lugar: endereço ou nome da página. \"No site da oficina\" nêo serve; \"na página agendar.html\" serve.",
             "Uma tarefa, um resultado. Duas coisas viram dois contratos."
           ]
         },
         {
           "titulo": "Limites",
-          "sub": "com um \"não\"",
+          "sub": "com um \"nêo\"",
           "texto": [
-            "O script exige pelo menos um \"não\": o agente precisa saber o que não fazer. Em teste de site, quase sempre: não confirmar, não pagar, não sair do endereço.",
-            "Limite de dado também conta: \"não digite senha\", \"não use dado de outra pessoa\"."
+            "O script exige pelo menos um \"nêo\": o agente precisa saber o que nêo fazer. Em teste de site, quase sempre: nêo confirmar, nêo pagar, nêo sair do endereço.",
+            "Limite de dado também conta: \"nêo digite senha\", \"nêo use dado de outra pessoa\"."
           ]
         },
         {
@@ -92,19 +92,19 @@
           "sub": "entre aspas",
           "texto": [
             "Um texto literal, entre aspas, que você consegue procurar na página. É o mesmo texto que o robô de ensaio da aula 6 vai esperar.",
-            "Peça também a evidência copiada da página: \"devolva os horários copiados da lista, não de memória\"."
+            "Peça também a evidência copiada da página: \"devolva os horários copiados da lista, nêo de memória\"."
           ]
         },
         {
           "titulo": "Parada",
           "sub": "com número",
           "texto": [
-            "Os sinais (login, verificação, confirmação) e um número: 10 ações, 3 tentativas. O script exige um número.",
-            "Peça o bloqueio bem reportado: onde parou, o que falta e a ação de que a pessoa precisa."
+            "Os sinais (login, verificaçêo, confirmaçêo) e um número: 10 ações, 3 tentativas. O script exige um número.",
+            "Peça o bloqueio bem reportado: onde parou, o que falta e a açêo de que a pessoa precisa."
           ],
           "exemplo": {
             "rot": "Bloqueio bem reportado",
-            "texto": "\"Parei na tela de login de conta.html: pede e-mail e senha. Falta: login do dono da conta. Nada foi enviado.\" Melhor que \"não consegui\"."
+            "texto": "\"Parei na tela de login de conta.html: pede e-mail e senha. Falta: login do dono da conta. Nada foi enviado.\" Melhor que \"nêo consegui\"."
           }
         }
       ]
@@ -117,7 +117,7 @@
         {
           "rot": "Arquivo · kit/contratos/exemplo.md",
           "icone": "arquivo",
-          "conteudo": "# Contrato: horários de troca de pneu\n\n## Objetivo\nNa página http://127.0.0.1:8433/agendar.html, descobrir os horários livres de \"Troca de pneu\" em 2026-11-03.\n\n## Limites\nPode preencher o formulário e clicar em \"Ver horários\". Não clique em \"Agendar às…\" nem em \"Confirmar\". Não saia de http://127.0.0.1:8433/.\n\n## Prova\nA página mostra \"4 horários livres para Troca de pneu em 2026-11-03.\" Devolva os horários copiados da lista, não de memória.\n\n## Parada\nPare e descreva a tela se aparecer login, verificação humana ou pedido de confirmação. Pare depois de 10 ações sem chegar à prova."
+          "conteudo": "# Contrato: horários de troca de pneu\n\n## Objetivo\nNa página http://127.0.0.1:8433/agendar.html, descobrir os horários livres de \"Troca de pneu\" em 2026-11-03.\n\n## Limites\nPode preencher o formulário e clicar em \"Ver horários\". Nêo clique em \"Agendar às…\" nem em \"Confirmar\". Nêo saia de http://127.0.0.1:8433/.\n\n## Prova\nA página mostra \"4 horários livres para Troca de pneu em 2026-11-03.\" Devolva os horários copiados da lista, nêo de memória.\n\n## Parada\nPare e descreva a tela se aparecer login, verificaçêo humana ou pedido de confirmaçêo. Pare depois de 10 ações sem chegar à prova."
         },
         {
           "rot": "Terminal · conferir o contrato completo",
@@ -139,7 +139,7 @@
           },
           {
             "rot": "Erro comum: o pedido vago",
-            "html": "<pre>contrato incompleto: 0/4 partes · contratos/vago.md\n  falta: objetivo sem o lugar (endereço ou página)\n  falta: limites (o que pode e o que não pode)\n  falta: prova (o que se vê na página quando acabou)\n  falta: parada (quando parar e chamar a pessoa)\nsaída: 1</pre><p>\"Agende uma revisão pra mim no site da oficina\" não diz a página, não tem limite, não tem prova e não tem parada. Um agente com esse pedido pode clicar em Confirmar.</p>"
+            "html": "<pre>contrato incompleto: 0/4 partes · contratos/vago.md\n  falta: objetivo sem o lugar (endereço ou página)\n  falta: limites (o que pode e o que nêo pode)\n  falta: prova (o que se vê na página quando acabou)\n  falta: parada (quando parar e chamar a pessoa)\nsaída: 1</pre><p>\"Agende uma revisêo pra mim no site da oficina\" nêo diz a página, nêo tem limite, nêo tem prova e nêo tem parada. Um agente com esse pedido pode clicar em Confirmar.</p>"
           }
         ]
       }
@@ -160,7 +160,7 @@
           "id": "e2",
           "titulo": "E2 · Uma tarefa do seu site",
           "min": "15 min",
-          "texto": "Escreva o contrato de uma tarefa real do seu site (local ou em homologação), só de leitura. A prova tem de ser um texto que você acha na página agora.",
+          "texto": "Escreva o contrato de uma tarefa real do seu site (local ou em homologaçêo), só de leitura. A prova tem de ser um texto que você acha na página agora.",
           "pronto": "<code>node conferir-contrato.mjs contrato-site.md</code> → <code>contrato ok: 4/4 partes</code>, e o texto da prova aparece com <code>Ctrl+F</code> na página."
         }
       ]
@@ -178,7 +178,7 @@
             "\"A página mostra 4 horários livres para Troca de pneu\""
           ],
           "certa": 3,
-          "explica": "Prova é um texto que se confere na página. A frase do agente é promessa; a captura sozinha não diz o que conferir; tempo não é resultado.",
+          "explica": "Prova é um texto que se confere na página. A frase do agente é promessa; a captura sozinha nêo diz o que conferir; tempo nêo é resultado.",
           "ref": "diagrama",
           "cert": true
         },
@@ -191,20 +191,20 @@
             "Criar uma conta nova para poder continuar"
           ],
           "certa": 0,
-          "explica": "Login é sinal de parada. O bloqueio bem reportado diz a tela, o que falta e a ação da pessoa. Criar conta ou tentar senha fere os limites.",
+          "explica": "Login é sinal de parada. O bloqueio bem reportado diz a tela, o que falta e a açêo da pessoa. Criar conta ou tentar senha fere os limites.",
           "ref": "passos",
           "cert": true
         },
         {
-          "p": "Por que o conferir-contrato.mjs exige um \"não\" nos limites?",
+          "p": "Por que o conferir-contrato.mjs exige um \"nêo\" nos limites?",
           "opcoes": [
-            "Porque contrato sem negação é mais difícil de ler",
-            "Porque o agente precisa saber o que não pode fazer",
+            "Porque contrato sem negaçêo é mais difícil de ler",
+            "Porque o agente precisa saber o que nêo pode fazer",
             "Porque o Playwright MCP só aceita limites negativos",
-            "Porque o script não consegue ler frases afirmativas"
+            "Porque o script nêo consegue ler frases afirmativas"
           ],
           "certa": 1,
-          "explica": "Limites dizem o que pode e o que não pode. Em teste de site, o \"não\" protege o que tem consequência: confirmar, pagar, sair do endereço.",
+          "explica": "Limites dizem o que pode e o que nêo pode. Em teste de site, o \"nêo\" protege o que tem consequência: confirmar, pagar, sair do endereço.",
           "ref": "passos"
         },
         {
@@ -216,7 +216,7 @@
             "Uma captura de tela da página antes de começar"
           ],
           "certa": 2,
-          "explica": "\"Travar\" o agente decide sozinho. Um orçamento (10 ações) e sinais claros (login, verificação, confirmação) tornam a parada verificável.",
+          "explica": "\"Travar\" o agente decide sozinho. Um orçamento (10 ações) e sinais claros (login, verificaçêo, confirmaçêo) tornam a parada verificável.",
           "ref": "diagrama"
         }
       ]
@@ -227,10 +227,10 @@
       "itens": [
         {
           "t": "Quatro partes",
-          "texto": "Objetivo com lugar, limites com um \"não\", prova entre aspas, parada com número."
+          "texto": "Objetivo com lugar, limites com um \"nêo\", prova entre aspas, parada com número."
         },
         {
-          "t": "Prova não é frase",
+          "t": "Prova nêo é frase",
           "texto": "É um texto que você procura na página e acha."
         },
         {
@@ -249,7 +249,7 @@
           "icone": "arquivo"
         },
         {
-          "t": "Formação LOOP-R Engenharia: verificação e evals a fundo",
+          "t": "Formaçêo LOOP-R Engenharia: verificaçêo e evals a fundo",
           "href": "https://linnoff88-dev.github.io/
           "icone": "seta"
         }

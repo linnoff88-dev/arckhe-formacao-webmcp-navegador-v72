@@ -94,23 +94,23 @@
           "titulo": "Quais tarefas",
           "sub": "3 a 6",
           "texto": [
-            "As que dão dinheiro ou dor de cabeça: achar um preço, ver horários, chegar ao contato. Comece só de leitura.",
-            "Cada tarefa, um contrato: objetivo com a página, limites com um \"não\", prova entre aspas, parada com número."
+            "As que dêo dinheiro ou dor de cabeça: achar um preço, ver horários, chegar ao contato. Comece só de leitura.",
+            "Cada tarefa, um contrato: objetivo com a página, limites com um \"nêo\", prova entre aspas, parada com número."
           ]
         },
         {
           "titulo": "Os passos",
           "sub": "pelo nome",
           "texto": [
-            "O robô entende quatro passos: <code>abrir</code>, <code>preencher</code> [rótulo, valor], <code>escolher</code> [rótulo, opção] e <code>clicar</code> [texto do botão ou link]. Todos pelo nome da árvore.",
-            "Se um passo não acha o controle pelo nome, o problema costuma ser o HTML (curso 0, aula 3), não a bateria."
+            "O robô entende quatro passos: <code>abrir</code>, <code>preencher</code> [rótulo, valor], <code>escolher</code> [rótulo, opçêo] e <code>clicar</code> [texto do botêo ou link]. Todos pelo nome da árvore.",
+            "Se um passo nêo acha o controle pelo nome, o problema costuma ser o HTML (curso 0, aula 3), nêo a bateria."
           ]
         },
         {
           "titulo": "Uma parada",
           "sub": "obrigatória",
           "texto": [
-            "Pelo menos uma tarefa com <code>\"espera\": \"parar\"</code>: o login, a verificação ou a confirmação do seu site. Ela prova que o teste para onde deve.",
+            "Pelo menos uma tarefa com <code>\"espera\": \"parar\"</code>: o login, a verificaçêo ou a confirmaçêo do seu site. Ela prova que o teste para onde deve.",
             "O conferidor recusa bateria sem parada."
           ]
         },
@@ -118,12 +118,12 @@
           "titulo": "Onde roda",
           "sub": "local",
           "texto": [
-            "No seu site local (em <code>127.0.0.1</code>, na porta do seu projeto) ou de homologação. O conferidor avisa quando o endereço não é local.",
-            "Nada de produção com dado real, compra ou envio."
+            "No seu site local (em <code>127.0.0.1</code>, na porta do seu projeto) ou de homologaçêo. O conferidor avisa quando o endereço nêo é local.",
+            "Nada de produçêo com dado real, compra ou envio."
           ],
           "exemplo": {
             "rot": "Quando a spec mudar",
-            "texto": "Bateria congelada e regressão quando o WebMCP mudar de novo são do curso 5. A sua bateria é o ponto de partida."
+            "texto": "Bateria congelada e regressêo quando o WebMCP mudar de novo sêo do curso 5. A sua bateria é o ponto de partida."
           }
         }
       ]
@@ -131,12 +131,12 @@
     {
       "tipo": "codigo",
       "titulo": "O conferidor da bateria",
-      "sub": "O modelo do kit ainda não passa (uma tarefa, nenhuma parada); a bateria de limites passa.",
+      "sub": "O modelo do kit ainda nêo passa (uma tarefa, nenhuma parada); a bateria de limites passa.",
       "blocos": [
         {
           "rot": "Arquivo · kit/modelo-bateria.json",
           "icone": "arquivo",
-          "conteudo": "{\n  \"site\": \"http://127.0.0.1:8000/\",\n  \"tarefas\": [\n    {\n      \"id\": \"t1-trocar\",\n      \"objetivo\": \"Na página [página].html, trocar por: o que a pessoa quer conseguir nesta página.\",\n      \"limites\": \"Trocar por: o que o agente pode fazer. Não clicar em Comprar nem em Confirmar.\",\n      \"prova\": { \"texto\": \"trocar pelo texto que aparece quando deu certo\" },\n      \"parada\": \"Pare se aparecer login, verificação ou confirmação. Pare depois de 10 ações.\",\n      \"espera\": \"ok\",\n      \"passos\": [\n        { \"abrir\": \"index.html\" },\n        { \"preencher\": [\"Rótulo do campo\", \"valor\"] },\n        { \"clicar\": \"Texto do botão\" }\n      ]\n    }\n  ]\n}"
+          "conteudo": "{\n  \"site\": \"http://127.0.0.1:8000/\",\n  \"tarefas\": [\n    {\n      \"id\": \"t1-trocar\",\n      \"objetivo\": \"Na página [página].html, trocar por: o que a pessoa quer conseguir nesta página.\",\n      \"limites\": \"Trocar por: o que o agente pode fazer. Nêo clicar em Comprar nem em Confirmar.\",\n      \"prova\": { \"texto\": \"trocar pelo texto que aparece quando deu certo\" },\n      \"parada\": \"Pare se aparecer login, verificaçêo ou confirmaçêo. Pare depois de 10 ações.\",\n      \"espera\": \"ok\",\n      \"passos\": [\n        { \"abrir\": \"index.html\" },\n        { \"preencher\": [\"Rótulo do campo\", \"valor\"] },\n        { \"clicar\": \"Texto do botêo\" }\n      ]\n    }\n  ]\n}"
         },
         {
           "rot": "Terminal · copiar o modelo e conferir",
@@ -154,7 +154,7 @@
         "abas": [
           {
             "rot": "O modelo, antes (19/10/2026)",
-            "html": "<pre>  só 1 tarefas (mínimo 3)\n  nenhuma tarefa com espera \"parar\" (inclua login, verificação ou confirmação)\nbateria com 2 problemas · minha-bateria.json\nsaída: 1</pre><p>Duas faltas: só uma tarefa e nenhuma parada. É o ponto de partida do E1.</p>"
+            "html": "<pre>  só 1 tarefas (mínimo 3)\n  nenhuma tarefa com espera \"parar\" (inclua login, verificaçêo ou confirmaçêo)\nbateria com 2 problemas · minha-bateria.json\nsaída: 1</pre><p>Duas faltas: só uma tarefa e nenhuma parada. É o ponto de partida do E1.</p>"
           },
           {
             "rot": "Uma bateria pronta (19/10/2026)",
@@ -250,32 +250,32 @@
             "Porque o Playwright MCP precisa de uma parada"
           ],
           "certa": 2,
-          "explica": "Uma bateria sem parada nunca testa se o agente respeita login, verificação e confirmação, que são os pontos em que errar custa caro.",
+          "explica": "Uma bateria sem parada nunca testa se o agente respeita login, verificaçêo e confirmaçêo, que sêo os pontos em que errar custa caro.",
           "ref": "passos",
           "cert": true
         },
         {
-          "p": "Um passo preencher [\"E-mail\", …] falhou porque o robô não achou o campo pelo rótulo. Onde está o problema mais provável?",
+          "p": "Um passo preencher [\"E-mail\", …] falhou porque o robô nêo achou o campo pelo rótulo. Onde está o problema mais provável?",
           "opcoes": [
-            "No HTML: o campo não tem rótulo que vire nome",
-            "No robô de ensaio, que não lê campos de e-mail",
+            "No HTML: o campo nêo tem rótulo que vire nome",
+            "No robô de ensaio, que nêo lê campos de e-mail",
             "No Chromium do kit, que é velho demais",
             "Na bateria, que devia usar o id do campo"
           ],
           "certa": 0,
-          "explica": "O robô acha pelo nome da árvore, como o agente. Campo sem label não tem nome confiável: a correção é no HTML (curso 0, aula 3).",
+          "explica": "O robô acha pelo nome da árvore, como o agente. Campo sem label nêo tem nome confiável: a correçêo é no HTML (curso 0, aula 3).",
           "ref": "passos"
         },
         {
           "p": "Onde a sua bateria deve rodar?",
           "opcoes": [
-            "Em produção, porque é lá que o cliente navega",
+            "Em produçêo, porque é lá que o cliente navega",
             "Em qualquer site parecido com o seu",
             "No site de um concorrente, para comparar",
-            "No seu site local ou de homologação"
+            "No seu site local ou de homologaçêo"
           ],
           "certa": 3,
-          "explica": "Agente de teste só contra o seu site, local ou homologação. Produção tem dado real; site de terceiro não é seu para automatizar.",
+          "explica": "Agente de teste só contra o seu site, local ou homologaçêo. Produçêo tem dado real; site de terceiro nêo é seu para automatizar.",
           "ref": "passos",
           "cert": true
         }
@@ -291,7 +291,7 @@
         },
         {
           "t": "Uma parada, pelo menos",
-          "texto": "Prova que o teste para no login, na verificação ou na confirmação."
+          "texto": "Prova que o teste para no login, na verificaçêo ou na confirmaçêo."
         },
         {
           "t": "Roda sempre",
@@ -309,12 +309,12 @@
           "icone": "pasta"
         },
         {
-          "t": "Próximo curso da formação: 4 · Segurança e confiança entre site e agente",
+          "t": "Próximo curso da formaçêo: 4 · Segurança e confiança entre site e agente",
           "href": "https://linnoff88-dev.github.io/
           "icone": "seta"
         },
         {
-          "t": "Área WebMCP: a formação inteira",
+          "t": "Área WebMCP: a formaçêo inteira",
           "href": "https://eventos.ARCKHÉ.pro/webmcp/",
           "icone": "camadas"
         }
